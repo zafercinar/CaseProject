@@ -1,0 +1,21 @@
+﻿@model IEnumerable<CaseProject.Core.ViewModels.WordModel>
+
+@{
+    ViewBag.Title = "Word Listesi";
+}
+
+<div class="container">
+    <div class="table-responsive">
+        <table id="wordDatatable" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Text</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section Scripts{
+    <script src="~/js/CustomWordData.js"></script>
+}
